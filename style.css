@@ -1,0 +1,141 @@
+*{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+}
+.nav-item{
+	padding-left:1rem;
+}
+.navbar{
+	background:#000;
+
+}
+.carousel-item{
+	height:450px;
+
+}
+.carousel-img-1{
+	background-image:url('image/image1.jpeg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position:center;
+}
+
+.carousel-img-2{
+	background-image:url('image/image2.jpeg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position:center;
+}
+
+.carousel-img-3{
+	background-image:url('image/image3.jpeg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position:center;
+}
+#home .fa{
+    font-size:25px;
+}
+#gethome{
+	background-image:url('image/pc.jpeg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+    background-repeat:no-repeat;
+    position:relative;
+    min-height:230px;
+}
+.dark-overlay{
+	background:rgba(0, 0, 0, 0.6);
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+} 
+
+#homevideo{
+  position:relative;
+  background-image:url(image/people.jpeg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  min-height:200px;
+}
+.home-overlay{
+	background:rgba(0, 0, 0, 0.6);
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.home-overlay .fa{
+	font-size:30px;
+}
+
+#photo img{
+ min-height:220px;
+}
+@media(max-width: 480px){
+	.gethome{
+		min-height:300px;
+	}
+} 
+#newslatter h2{
+	color:#fff;
+}
+
+/*about us part*/
+#aboutfirst{
+	background-image:url(image/image2.jpeg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment:fixed;
+	height:200px;
+}
+#aboutsecond img{
+    width:320px;
+    height:320px;
+}
+#aboutthird .fa{
+	font-size:30px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+.slick-prev:before,
+.slick-next:before{
+	color:#000;
+}
+/*about us end*/
+
+/*services part start*/
+#services{
+	background-image:url(image/image3.jpeg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment:fixed;
+	height:200px;
+}
+/*services part endd*/
+
+/*blog part*/
+#blog{
+	background-image:url(image/image6.jpeg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment:fixed;
+	height:200px;
+}
+#contact{
+	background-image:url(image/people.jpeg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment:fixed;
+	height:200px;
+}
